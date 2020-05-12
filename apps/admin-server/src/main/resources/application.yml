@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: admin-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        metadata:
+          management:
+            context-path: /admin/actuator
+server:
+  port: 1001
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
