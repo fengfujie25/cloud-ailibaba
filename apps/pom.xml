@@ -21,6 +21,7 @@
         <module>admin-server</module>
         <module>common-core</module>
         <module>nacos-config</module>
+        <module>sentinel-server</module>
     </modules>
 
     <properties>
@@ -47,14 +48,23 @@
 
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
+            <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+            <version>${spring.cloud.alibaba.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
         </dependency>
 
-        <dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-client</artifactId>
-            <version>${admin.version}</version>
-        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-alibaba-sentinel</artifactId>-->
+<!--        </dependency>-->
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
