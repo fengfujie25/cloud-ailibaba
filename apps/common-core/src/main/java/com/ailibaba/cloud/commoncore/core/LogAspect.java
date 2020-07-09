@@ -1,7 +1,7 @@
 package com.ailibaba.cloud.commoncore.core;
 
-import com.alibaba.fastjson.JSON;
-import com.google.common.collect.Maps;
+//import com.alibaba.fastjson.JSON;
+//import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -45,15 +45,15 @@ public class LogAspect {
 
 		try {
 			String className = joinPoint.getTarget().getClass().getName();
-
-			MethodSignature signature = (MethodSignature) joinPoint.getSignature();
-			String methodName = signature.getMethod().getName();
-			Map<String, String> params = Maps.newHashMap();
-			Map<String, String[]> map = request.getParameterMap();
-			request.getParameterMap().forEach((k, v) -> {
-				params.put(k, map.get(k)[0]);
-			});
-			log.info(LOG_FORMAT, className, methodName, JSON.toJSONString(params));
+//
+//			MethodSignature signature = (MethodSignature) joinPoint.getSignature();
+//			String methodName = signature.getMethod().getName();
+//			Map<String, String> params = Maps.newHashMap();
+//			Map<String, String[]> map = request.getParameterMap();
+//			request.getParameterMap().forEach((k, v) -> {
+//				params.put(k, map.get(k)[0]);
+//			});
+//			log.info(LOG_FORMAT, className, methodName, JSON.toJSONString(params));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

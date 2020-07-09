@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/apps/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/apps.iml" filepath="$PROJECT_DIR$/apps/apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/common-core/common-core.iml" filepath="$PROJECT_DIR$/apps/common-core/common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/consumer-server/consumer-server.iml" filepath="$PROJECT_DIR$/apps/consumer-server/consumer-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/nacos-config/nacos-config.iml" filepath="$PROJECT_DIR$/apps/nacos-config/nacos-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/nacos-server/nacos-server.iml" filepath="$PROJECT_DIR$/apps/nacos-server/nacos-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/provider-server/provider-server.iml" filepath="$PROJECT_DIR$/apps/provider-server/provider-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/sentinel-server/sentinel-server.iml" filepath="$PROJECT_DIR$/apps/sentinel-server/sentinel-server.iml" />
+    </modules>
+  </component>
+</project>

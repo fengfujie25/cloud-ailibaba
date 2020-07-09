@@ -8,4 +8,11 @@ spring:
         server-addr: 127.0.0.1:8848
   application:
     name: nacos-server
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
