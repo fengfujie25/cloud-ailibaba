@@ -41,7 +41,7 @@ public class TestProviderController {
 	@RequestMapping("/order")
 	public String order(@RequestParam(defaultValue = "0") String flag) throws Exception {
 		monitor.getOrderCount().increment();
-
+		monitor.timer(0);
 		if ("1".equals(flag)) {
 			throw new Exception("Exception");
 		}
@@ -49,6 +49,8 @@ public class TestProviderController {
 		Random random = new Random();
 		int amout = random.nextInt(100);
 		monitor.getAmountSum().record(amout);
+		monitor.guage(amout);
+		monitor.timer(amout);
 		return "success, amount=" + amout;
 	}
 }

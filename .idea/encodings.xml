@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/apps/admin-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/common-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/consumer-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apps/metrics-monitor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/nacos-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/nacos-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/provider-server/src/main/java" charset="UTF-8" />

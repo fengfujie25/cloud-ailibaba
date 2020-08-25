@@ -3,10 +3,12 @@ package com.cloud.ailibaba.providerserver.componet;
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.DistributionSummary;
 import io.micrometer.core.instrument.MeterRegistry;
+import io.micrometer.core.instrument.Tags;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author fujie.feng
@@ -45,5 +47,17 @@ public class PrometheusCustomMonitor {
 
 	public DistributionSummary getAmountSum() {
 		return amountSum;
+	}
+
+	public void guage(int num) {
+		registry.gauge("test_order", Tags.of("site", "SiteA", "cab", "cab01"), new AtomicInteger(num));
+	}
+
+	public void timer(int num) {
+		registry.timer("maomao", "timer", "long");
+	}
+
+	public void close() {
+		registry.close();
 	}
 }
