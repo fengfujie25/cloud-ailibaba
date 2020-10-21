@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maomao.mybatisplus.mybatisplus.mysql.mapper.MtEbRoomMapper">
+
+    <select id="testMapper" resultType="com.maomao.mybatisplus.mybatisplus.mysql.entity.MtEbRoom">
+        select * from mt_eb_room
+        where poi_id = #{poiId}
+    </select>
+</mapper>

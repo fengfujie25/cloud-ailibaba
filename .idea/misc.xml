@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/apps/nacos-config/pom.xml" />
         <option value="$PROJECT_DIR$/apps/sentinel-server/pom.xml" />
         <option value="$PROJECT_DIR$/apps/metrics-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/mybatis-plus/pom.xml" />
       </list>
     </option>
   </component>

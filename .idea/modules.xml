@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/apps/common-core/common-core.iml" filepath="$PROJECT_DIR$/apps/common-core/common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/consumer-server/consumer-server.iml" filepath="$PROJECT_DIR$/apps/consumer-server/consumer-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/metrics-monitor/metrics-monitor.iml" filepath="$PROJECT_DIR$/apps/metrics-monitor/metrics-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/apps/mybatis-plus/mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/nacos-config/nacos-config.iml" filepath="$PROJECT_DIR$/apps/nacos-config/nacos-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/nacos-server/nacos-server.iml" filepath="$PROJECT_DIR$/apps/nacos-server/nacos-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/provider-server/provider-server.iml" filepath="$PROJECT_DIR$/apps/provider-server/provider-server.iml" />

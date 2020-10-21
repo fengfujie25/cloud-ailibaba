@@ -7,15 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consumer-server" />
         <module name="nacos-config" />
-        <module name="sentinel-server" />
-        <module name="common-core" />
+        <module name="admin-server" />
         <module name="nacos-server" />
         <module name="provider-server" />
-        <module name="consumer-server" />
+        <module name="mybatis-plus" />
+        <module name="sentinel-server" />
         <module name="metrics-monitor" />
+        <module name="common-core" />
         <module name="apps" />
-        <module name="admin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="common-core" target="1.8" />
       <module name="consumer-server" target="1.8" />
       <module name="metrics-monitor" target="1.8" />
+      <module name="mybatis-plus" target="1.8" />
       <module name="nacos-config" target="1.8" />
       <module name="nacos-server" target="1.8" />
       <module name="provider-server" target="1.8" />
@@ -37,6 +39,7 @@
       <module name="common-core" options="-parameters" />
       <module name="consumer-server" options="-parameters" />
       <module name="metrics-monitor" options="-parameters" />
+      <module name="mybatis-plus" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
       <module name="nacos-server" options="-parameters" />
       <module name="provider-server" options="-parameters" />
